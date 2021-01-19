@@ -13,6 +13,7 @@ parameters:
   values:
   - default
   - ubuntu
+  - redhat
 - name: myNumber
   type: string
   default: '2'
