@@ -14,7 +14,7 @@ parameters:
   - default
   - ubuntu
 - name: myNumber
-  type: number
+  type: string
   default: 2
   values:
   - 1
