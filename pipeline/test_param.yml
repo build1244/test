@@ -18,9 +18,9 @@ parameters:
   type: string
   default: 
   values:
-  - a
-  - b
-  - c
+  - 1
+  - 2
+  - 3
 - name: '$(test)'
   type: boolean
   default: true
