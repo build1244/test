@@ -16,13 +16,11 @@ parameters:
   - redhat
 - name: myNumber
   type: string
-  default: '2'
+  default: 
   values:
-  - '1'
-  - '2'
-  - '4'
-  - '8'
-  - '16'
+  - a
+  - b
+  - c
 - name: '$(test)'
   type: boolean
   default: true
