@@ -16,7 +16,7 @@ parameters:
   - redhat
 - name: myNumber
   type: number
-  default: 
+  # default: 
   values:
   - 1
   - 2
