@@ -22,7 +22,7 @@ parameters:
   - 4
   - 8
   - 16
-- name: myBoolean
+- name: $(test)
   type: boolean
   default: true
   values:
