@@ -22,13 +22,9 @@ parameters:
   - 4
   - 8
   - 16
-- name: $(test)
+- name: '$(test)'
   type: boolean
   default: true
-  values:
-    - a
-    - b
-    - c
 - name: myObject
   type: object
   default:
