@@ -9,8 +9,8 @@ resources:
   repositories:
     - repository: test_sh
       type: github
-      endpoint: build1244 (1)
-      name: build/test_sh
+      endpoint: build1244
+      name: build1244/test_sh
     - repository: az-devops
       type: github
       endpoint: build1244 (1)
