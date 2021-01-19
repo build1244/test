@@ -44,5 +44,8 @@ stages:
       displayName: test
       steps:
         - checkout: test_sh
+          path: 
         - checkout: az-devops
-        - script: tree
+        - script: |
+            pwd
+            tree
