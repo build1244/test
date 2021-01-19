@@ -43,9 +43,9 @@ stages:
     - job: test
       displayName: test
       steps:
-        # - checkout: test_sh
-        #   path: 
-        # - checkout: az-devops
+        - checkout: self
+        - checkout: test_sh
+        - checkout: az-devops
         - script: |
             pwd
             tree
