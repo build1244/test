@@ -25,6 +25,10 @@ parameters:
 - name: myBoolean
   type: boolean
   default: true
+  values:
+    - a
+    - b
+    - c
 - name: myObject
   type: object
   default:
