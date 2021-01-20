@@ -40,12 +40,12 @@ stages:
 - stage: Test
   displayName: Test
   jobs:
-    - job: test
-      displayName: test
-      steps:
-        - checkout: self
-        - checkout: test_sh
-        - checkout: az-devops
-        - script: |
-            pwd
-            tree
+    # - job: test
+    #   displayName: test
+    #   steps:
+    #     - checkout: self
+    #     - checkout: test_sh
+    #     - checkout: az-devops
+    #     - script: |
+    #         pwd
+    #         tree
